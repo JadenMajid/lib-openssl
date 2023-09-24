@@ -42,7 +42,7 @@ $(eval $(call addlib_s,libopensslglue,$(CONFIG_LIBOPENSSL)))
 ################################################################################
 # Original sources
 ################################################################################
-LIBOPENSSL_MAJOR=1.1.1
+LIBOPENSSL_MAJOR=3.1.3
 LIBOPENSSL_MINOR=c
 LIBOPENSSL_VERSION=$(LIBOPENSSL_MAJOR)$(LIBOPENSSL_MINOR)
 LIBOPENSSL_URL=https://www.openssl.org/source/old/$(LIBOPENSSL_MAJOR)/openssl-$(LIBOPENSSL_VERSION).tar.gz
